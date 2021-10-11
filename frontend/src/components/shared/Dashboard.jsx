@@ -1,6 +1,5 @@
 import SearchBar from "./SearchBar";
 import Visualizer from "../Visualizer";
-// import Footer from "./Footer";
 import '../../styles/Dashboard.css';
 
 const Dashboard = ({ children }) => {
@@ -11,7 +10,6 @@ const Dashboard = ({ children }) => {
         <Visualizer>
           {children}
         </Visualizer>
-        {/* <Footer /> */}
       </div>
     </>
   );

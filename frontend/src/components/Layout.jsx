@@ -1,5 +1,5 @@
-import Dashboard from "../components/shared/Dashboard";
-import Header from "../components/shared/Header";
+import Dashboard from "./shared/Dashboard";
+import Header from "./shared/Header";
 import '../styles/Layout.css';
 
 const Layout = ({ children }) => {

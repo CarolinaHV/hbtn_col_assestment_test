@@ -1,0 +1,8 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 20px;
+    background-color: #1d2d44;
+    border: 2px solid #4ef17a;
+}

@@ -1,0 +1,41 @@
+.visual {
+    background-color: #f6fff8;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.order_table, .user_list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th:nth-child(1) {
+    border-top-left-radius: 15px;
+}
+
+th:nth-child(7) {
+    border-top-right-radius: 15px;
+}
+th, td {
+    padding: 5px 10px;
+    text-align: left;
+}
+  
+th {
+    position: sticky;
+    top: 0;
+    background-color: #b8bfbe;
+    padding: 10px;
+}
+
+.button {
+    padding: 5px;
+    background-color: #FBFCFC;
+    border: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+   color: darkblue;
+   background-color: #D1F2EB;
+}

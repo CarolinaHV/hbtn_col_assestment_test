@@ -6,15 +6,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: #FAFFFF;
     width: 100%;
-    height: 50px;
+    height: 80px;
     border: 1px solid;
     border-radius: 10px;
     margin: 40px 0;
-   
+}
+
+.menu, a {
+    font-size: 1.3em;
 }
 
 li:hover {
     font-weight: bold;
+    background-color: #E6FBF9;
+}
+
+.menu img {
+    margin: 0;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
 }
